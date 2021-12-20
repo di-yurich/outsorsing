@@ -28,6 +28,11 @@ header{
     margin: auto 0;
 }
 
+.header_second{
+
+    background-color: #2f2339;
+}
+
 .logo{
     width: 5em;
     margin: auto 0;
@@ -42,6 +47,11 @@ header{
 nav ul li {
     margin: 0 1em;
     border-bottom: #fff 2px solid;
+}
+
+nav .lang_second li {
+    margin: 0 1em;
+    border-bottom: #2f2339 2px solid;
 }
 
 nav ul li:hover {
@@ -64,8 +74,16 @@ nav ul li:hover {
     margin: auto;
 }
 
+.lang_second{
+    color: #fff;
+}
+
 .block_lang ul li{
     border-bottom: #fff 2px solid;
+}
+
+.block_lang .lang_second li{
+    border-bottom: #2f2339 2px solid;
 }
 
 .block_lang ul li:hover {
@@ -441,6 +459,50 @@ nav ul li:hover {
 footer{
     background-color: #2f2339;
     height: 30vh;
+}
+
+.news__page{
+    background-color: #eee;
+}
+
+
+.news__page_items{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 2em;
+}
+
+.news__page_items div{
+    background-color: #fff;
+    width: 27%;
+    margin: 2em;
+    transition: 1s;
+    padding: 1em;
+    transition: .5s;
+}
+
+.news__page_items div:hover{
+    box-shadow: 5px 5px 5px #444;
+}
+
+
+.news__page_items div img{
+    width: 100%;
+    height: 12em;
+    margin-bottom: 2em;
+}
+
+.news__page_items div h4{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+.news__page_items div p{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 0.9em;
 }
 
 
