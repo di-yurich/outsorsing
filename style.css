@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @import url('https://db.onlinewebfonts.com/c/fe9c236a1c142788cb16ec5238c7833e?family=Minion+Pro'); */
+
+@font-face {font-family: "Minion Pro";
+    src: url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.svg#Minion Pro") format("svg"); /* iOS 4.1- */
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    height: 10vh;
+    display: flex !important;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.logo{
+    width: 5em;
+    margin: auto 0;
+}
+
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+    border-bottom: #fff 2px solid;
+}
+
+nav ul li:hover {
+    font-weight: 500;
+    color: #f56131;
+    cursor: pointer;
+    border-bottom: #f56131 2px solid;
+}
+
+.block_lang{
+    right: 2em;
+    top: 0;
+    position: absolute;
+    height: 10vh;
+}
+
+.lang{
+    list-style-type: none;
+    font-family: 'Minion Pro', sans-serif;
+    margin: auto;
+}
+
+.block_lang ul li{
+    border-bottom: #fff 2px solid;
+}
+
+.block_lang ul li:hover {
+    font-weight: 500;
+    color: #f56131;
+    cursor: pointer;
+    border-bottom: #f56131 2px solid;
+}
+
+.banner{
+    display: flex;
+    height: 90vh;
+    background-size: cover;
+    background-image: url('banner.jpg') ;
+}
+
+.banner_content{
+    margin: auto;
+}
+
+.banner_title{
+    margin-left: 50%;
+    font-size: 5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner_text{
+    font-family: 'Minion Pro', sans-serif;
+    margin-left: 50%;
+    font-size: 1em;
+    color: #fff;
+}
+
+.banner_button{
+    margin-left: 50%;
+    margin-top: 1em;
+    background-color: #f56131;
+    padding: 1em;
+    color: #fff;
+    border: none;
+}
+
+
+.banner_button:hover{
+    background-color: #2f2339;
+    cursor: pointer;
+}
+
+.work_ukr{
+    height: 40vw;
+    background-color: #2f2339;
+    display: flex;
+}
+
+.work_ukr img {
+    height: 100%;
+}
+
+.work_ukr div{
+    padding: 0em 10em 0em 4em;
+    color: #fff;
+    margin: auto 0;
+}
+
+.work_ukr div h3{
+    font-size: 2.5em;
+}
+
+.work_ukr div p{
+    font-family: 'Minion Pro', sans-serif;
+    margin-top: 2em;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.work_button{
+    margin-top: 1em;
+    background-color: #f56131;
+    padding: 1em;
+    color: #fff;
+    border: none;
+}
+
+.work_button:hover{
+    cursor: pointer;
+ }
+
+.how_we_work{
+    padding-top: 6em;
+    height: 65vh;
+    display: flex;
+    justify-content: right;
+}
+
+.how_we_work h3 {
+    font-size: 2.5em;
+    margin: auto 1.5em;
+
+}
+
+.how_we_work_icons{
+    background-color: #f56131;
+    display: flex;
+    justify-content: start;
+    height: 30vh;
+    width: 70vw;
+}
+
+.how_we_work_text{
+    font-family: 'Minion Pro', sans-serif;
+    display: flex;
+    justify-content: start;
+    height: 30vh;
+    width: 70vw;
+    padding: 2em 6em;
+}
+
+.how_we_work_text div{
+    width: 33%;
+    margin-right: 5em;
+}
+
+.how_we_work_icons div h4{
+    font-family: 'Minion Pro', sans-serif;
+    margin: auto;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+}
+
+
+.how_we_work_icon{
+    width: 7em;
+    height: 8em;
+    margin: 1.5em 6vw
+}
+
+.ipad{
+    position: relative;
+    padding-top: 10em;
+    display: flex;
+    color: #fff;
+}
+
+.ipad_img{
+    position: absolute;
+    left: 55vw;
+    width: 28em;
+    top: 14em;
+}
+
+.ipad_block{
+    background-color: #2f2339;
+    height: 100vh;
+    width: 70vw;
+    padding: 5em;
+   
+}
+
+
+
+.ipad_block h3 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+}
+
+.ipad_block div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.ipad_block div div{
+    display: block;
+}
+
+
+.ipad_block div ul{
+    font-family: 'Minion Pro', sans-serif;
+    list-style-type: none;
+    font-size: 0.9em;
+}
+
+.watch{
+    margin: 10em 0;
+}
+
+.watch div {
+    width: 100%;
+    height: 33vh;
+    background-color: #f56131;
+    position: relative;
+    display: flex;
+}
+
+.watch div h3 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: auto 8em;
+}
+
+
+.watch_img{
+    width: 15em;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.iphone{
+    position: relative;
+}
+
+.iphone div{
+    background-color: #2f2339;
+    height: 100vh;
+    width: 65vw;
+    padding: 5em 10em;
+    margin-left: auto;
+    margin-right: 0;
+    color: #fff;
+}
+
+.iphone div h3{
+    font-size: 2.5em;
+    margin-bottom: 3em;
+}
+
+.iphone div p{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 0.9em;
+}
+
+.iphone_img{
+    position: absolute;
+    width: 20em;
+    top: 3em;
+    left: 18em;
+}
+
+.news{
+    display: flex;
+}
+
+.news_items{
+    width: 50vw;
+    padding-top: 4em;
+    padding-left: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.news_items div img{
+    transition: 1s;
+}
+
+.news_items div img:hover{
+    transform: scale(1.1);
+}
+
+.news_items div img{
+    width: 13em;
+    height: 8em;
+    margin-bottom: 2em;
+}
+
+.news_items div h4{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+.news_items div p{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 0.9em;
+}
+
+.news_descr{
+    background-color: #f56131;
+    height: 100vh;
+    width: 50vw;
+    padding: 7em;
+    color: #fff;
+}
+
+.news_descr h3{
+    font-size: 2.5em;
+}
+
+.news_descr p{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 1em;
+    margin: 7em 0;
+    width: 50%;
+}
+
+.news_button{
+    margin-top: 1em;
+    background-color: #2f2339;
+    padding: 1em;
+    color: #fff;
+    border: none;
+}
+
+.thank{
+    background-image: url('back.png');
+    padding: 7em;
+    text-align: center;
+    color: #fff;
+}
+
+.thank h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
+}
+
+.thank h4{
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+
+.thank p {
+    font-family: 'Minion Pro', sans-serif;
+    font-size: 1em;
+    margin: 2em;
+}
+
+.contact{
+    margin-bottom: 5em;
+}
+
+.contact div{
+   justify-content: space-between;
+}
+
+.contact div h3{
+    font-size: 2.5em;
+    margin: 2em 0;
+}
+
+.contact div div div {
+    margin: auto 0;
+    padding-left: 2em;
+    justify-content: start;
+}
+
+.contact div div div h4{
+   font-size: 1.2em;
+}
+
+.message_form{
+    margin: 1em !important;
+}
+
+.message_form div{
+    font-weight: 600;
+    margin: 1em !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.message_form div input{
+    border: none;
+    border-bottom: 2px solid #aaa;
+    width: 25vw;
+}
+
+
+footer{
+    background-color: #2f2339;
+    height: 30vh;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .banner_title{
+        margin-left: 50%;
+        font-size: 3.5em;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .banner_text{
+        margin-left: 50%;
+        font-size: 0.9em;
+        color: #fff;
+    }
+
+    
+    .logo{
+        width: 3.5em;
+        margin: auto 0;
+    }
+
+   
+    nav ul li {
+        margin: 0 1em;
+        font-size: 0.9em;
+    }
+
+    .lang li{
+        font-size: 0.9em;
+    }
+
+    .banner_button{
+       font-size: 0.9em;
+    }
+
+    .work_ukr div h3{
+        font-size: 2.2em;
+    }
+    .work_ukr div p{
+        font-size: 0.9em;
+    }
+
+    .work_button{
+       font-size: 0.9em;
+    }
+
+    .how_we_work_icon{
+        width: 6em;
+        height: 7em;
+        margin: 1.3em 6vw;
+        margin-bottom: 0.8em;
+    }
+    .how_we_work_icons div h4{
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    .how_we_work_icons{
+       
+        height: 33vh;
+
+    }
+
+    
+    .ipad_block h3 {
+        font-size: 2.2em;
+    }
+
+    .watch div h3 {
+        font-size: 2.2em;
+    }
+
+    .iphone div h3{
+        font-size: 2.2em;
+    }
+
+    .news_descr h3{
+        font-size: 2.2em;
+    }
+
+    .thank h3{
+        font-size: 2.2em;
+    }
+    
+    .thank h4{
+        font-size: 1.9em;
+    }
+
+    .contact div h3{
+        font-size: 2.2em;
+    }
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 3px;
+    background-color: #fff;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #2f2339;
+}
+  
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
